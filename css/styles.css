@@ -47,6 +47,9 @@ body {
 section {
   padding: 12px;
 }
+img {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
   header {
@@ -60,5 +63,8 @@ section {
   }
   button {
     width: auto;
+  }
+  img {
+    display: inline-block;
   }
 }
