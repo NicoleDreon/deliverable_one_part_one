@@ -50,6 +50,13 @@ section {
 img {
   display: none;
 }
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff5c0f;
+}
 
 @media only screen and (min-width: 768px) {
   header {
@@ -57,14 +64,20 @@ img {
     flex-direction: row;
     align-items: right;
   }
+  ul {
+    float: right;
+  }
   li {
     display: inline;
     padding-right: 0.5em;
+    float: right;
   }
   button {
     width: auto;
+    float: right;
   }
   img {
     display: inline-block;
+    max-width: 50%;
   }
 }
