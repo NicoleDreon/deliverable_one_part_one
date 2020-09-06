@@ -62,22 +62,31 @@ a:hover {
   header {
     display: flex;
     flex-direction: row;
-    align-items: right;
+    align-items: center;
+    justify-content: flex-end;
   }
   ul {
     float: right;
+    /* text-align: right; */
   }
   li {
     display: inline;
     padding-right: 0.5em;
-    float: right;
+    /* float: inline-end; */
+  }
+  h1{
+    align-items: center;
+justify-content: flex-start;
   }
   button {
     width: auto;
-    float: right;
   }
   img {
     display: inline-block;
     max-width: 50%;
+    /* margin: 20px; */
+  }
+  /* body { */
+    /* flex-direction: row; */
   }
 }
