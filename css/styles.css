@@ -44,7 +44,7 @@ body {
   padding-bottom: 33%;
   background-color: #fff;
 }
-section {
+.left {
   padding: 12px;
 }
 img {
@@ -63,20 +63,17 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   ul {
     float: right;
+    margin-left: auto;
     /* text-align: right; */
   }
   li {
     display: inline;
     padding-right: 0.5em;
-    /* float: inline-end; */
-  }
-  h1{
-    align-items: center;
-justify-content: flex-start;
+    float: inline-end;
   }
   button {
     width: auto;
@@ -84,9 +81,10 @@ justify-content: flex-start;
   img {
     display: inline-block;
     max-width: 50%;
-    /* margin: 20px; */
+    float: right;
+    padding: 10px;
   }
-  /* body { */
-    /* flex-direction: row; */
+  div {
+    margin-top: 80px;
   }
 }
